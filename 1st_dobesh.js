@@ -80,18 +80,6 @@ if (window.location.href === 'https://www.justhoney.cz/' || window.location.href
               <div class="swiper-slide">
                 <img class="banner-image" src="https://cdn.myshoptet.com/usr/www.justhoney.cz/user/banners/justhoney_banner.png?67477c92">
               </div>
-              <div class="swiper-slide">
-                <img class="banner-image" src="https://cdn.myshoptet.com/usr/www.justhoney.cz/user/banners/justhoney_banner.png?67477c92">
-              </div>
-              <div class="swiper-slide">
-                <img class="banner-image" src="https://cdn.myshoptet.com/usr/www.justhoney.cz/user/banners/justhoney_banner.png?67477c92">
-              </div>
-              <div class="swiper-slide">
-                <img class="banner-image" src="https://cdn.myshoptet.com/usr/www.justhoney.cz/user/banners/justhoney_banner.png?67477c92">
-              </div>
-              <div class="swiper-slide">
-                <img class="banner-image" src="https://cdn.myshoptet.com/usr/www.justhoney.cz/user/banners/justhoney_banner.png?67477c92">
-              </div>
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
