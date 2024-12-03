@@ -1,4 +1,3 @@
-<script>
 if (window.location.href === 'https://www.justhoney.cz/' || window.location.href === 'http://www.justhoney.cz/') {
     const firstCarouselWrapper = document.querySelector('.carousel-wrapper');
     const carouselInner = document.querySelector('.carousel-inner');
@@ -225,4 +224,3 @@ const observerOptions = {
 };
 
 observer.observe(bodyElement, observerOptions);
-</script>
