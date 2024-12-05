@@ -77,9 +77,11 @@ if (window.location.href === 'https://www.justhoney.cz/' || window.location.href
                     <div class="swiper-slide">
                         <a href="https://www.justhoney.cz/produkty-zamereni-nachlazeni/">
                             <div class="image-container">
-                                <img class="banner-image" src="https://www.justhoney.cz/user/documents/upload/Bannery/1stBanner.png">
-                                <div class="image-overlay">
-                                    <p class="overlay-text">Nachlazení</p>
+                                <div class="banner-image">
+                                    <img src="https://www.justhoney.cz/user/documents/upload/Bannery/1stBanner.png">
+                                    <div class="image-overlay">
+                                        <p class="overlay-text">Nachlazení</p>
+                                    </div>
                                 </div>
                             </div>
                         </a>
