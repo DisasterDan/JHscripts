@@ -39,6 +39,8 @@ if (window.location.href === 'https://www.justhoney.cz/' || window.location.href
         headerElement.parentNode.insertBefore(backgroundDiv, headerElement.nextSibling);
     }
 
+    const mainBackground = document.querySelector("#main-background");
+    if (mainBackground) {
         const swiperHTML = `
             <div class="banner-swiper">
                 <div class="swiper-wrapper">
