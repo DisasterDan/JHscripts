@@ -1,0 +1,272 @@
+.stars .star.is-active:hover, .stars .star.star-half::before, .stars .star.star-on::before {
+  	color: #e8b609;
+}
+
+#main-background video {
+		border-bottom: 2px solid #a88406;
+}
+
+@media (max-width: 767px) {
+  	/* TEST NA MOBILY */
+
+	 body {
+	    background-position: top center;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-image: url('https://cdn.myshoptet.com/usr/www.justhoney.cz/user/frontend_backgrounds/32013-2560x1600-desktop-hd-new-zealand-wallpaper-image.jpg');
+	  }
+  
+	  #header {
+	  	position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    transition: background-color 0.3s ease-in-out;
+	    background-color: rgba(0, 0, 0, 0.65) !important;
+	    border-bottom: solid 1px #a88406;
+	  }
+
+	.navigation-buttons a[data-target="search"], .navigation-buttons a[data-target="search"]:hover,
+	.navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="navigation"]:hover { 
+	  background-color: transparent;
+	}
+}
+
+@media (max-width: 1200px) {
+  .subcategories {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .subcategories > li {
+      width: 100%;
+  		max-width: 400px;
+      padding: 0px;
+  }
+}
+
+.btn {
+		border-radius: 0px !important;
+}
+
+.menu-level-2 {
+		margin-top: 10px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #a88406;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out, border 0.3s ease;
+}
+
+.banner-image:hover {
+    border: 2px solid #e8b609;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    transition: height 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+.banner-image:hover .image-overlay {
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay-text {
+    color: #a88406;
+    font-size: clamp(1.5rem, 1.9vw, 3.5rem);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: clamp(1%, 3%, 10%) clamp(1%, 3%, 10%);
+    line-height: 1.2;
+    transition: color 0.3s ease-in-out
+}
+
+@media (max-width: 1099px) {
+  .overlay-text {
+			font-size: clamp(1.75rem, 4.5vw, 4.5rem) !important;
+  }
+}
+
+.banner-image:hover .overlay-text {
+    color: #e8b609;
+}
+
+.flag-tip {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #aa7942 ! important;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  padding-top: 20px !important;
+  text-transform: uppercase;
+}
+
+.flags-default .flag {
+		min-width: 0%;
+}
+
+.flag {
+		border-radius: 0;
+}
+
+.product .image .flags-default .flag-tip {
+    transition: transform 0.3s ease;
+}
+
+.product .image img {
+        transition: transform 0.3s ease;
+    }
+
+    .product .image img:hover{
+        transform: scale(1.05);
+    }
+    
+        .product .image img:hover + .flags-default .flag-tip{
+        transform: scale(1.2);
+    }
+    
+#content {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.sidebar.sidebar-left {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.pagination-wrapper * .pagination-link,
+.pagination-wrapper .pagination a {
+		border-radius: 0 !important;
+}
+
+.pagination-wrapper .pagination a {
+		border-radius: 0 !important;
+}
+
+.categories > ul {
+    font-weight: 600;
+}
+
+.categories ul ul {
+    font-weight: 100;
+}
+
+#categories a,
+.form-control {
+  border-radius: 0;
+}
+
+div[id^="cat-"] {
+    font-weight: 600;
+    border-bottom: 1px solid #a88406;
+    padding: 10px 0;
+}
+
+div[id^="cat-"]:last-child {
+    border-bottom: none;
+}
+
+.categories ul li:not(:has(ul)) > a {
+    text-transform: lowercase;
+}
+
+/*----------------------------*/
+.p-tools {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_wrapper {
+    position: relative;
+}
+
+button.btn.add-to-cart-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: #1c1b1b;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border: 2px solid #1c1b1b;
+    transition: all 0.35s;
+    position: relative;
+}
+
+button.btn.add-to-cart-button:hover {
+    width: 250px;
+    border: 2px solid #e8b609;
+    background: transparent;
+    color: #e8b609;
+}
+
+button.btn.add-to-cart-button:hover::after {
+    border: 2px solid #e8b609;
+    right: -25%;
+}
+
+button.btn.add-to-cart-button:hover::before {
+    background: #e8b609;
+}
+
+button.btn.add-to-cart-button i.icon-cart {
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.35s ease;
+}
+
+button.btn.add-to-cart-button:hover i.icon-cart {
+    transform: rotate(-360deg);
+}
+
+/**/
+a.btn.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    height: 50px;
+    border-width: 2px;
+    text-decoration: none;
+    transition: all 0.35s ease;
+    position: relative;
+    text-transform: uppercase;
+}
+
+a.btn.btn-primary:hover {
+    padding: 10px 30px;
+}
+
+a.btn.btn-primary i.icon-arrow-right {
+    transition: transform 0.35s ease;
+}
+
+a.btn.btn-primary:hover i.icon-arrow-right {
+    transform: translateX(5px);
+}
