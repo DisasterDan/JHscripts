@@ -114,7 +114,6 @@ document.querySelector('.p-detail-full-width')) {
         const swiper = new Swiper('.banner-swiper', {
             navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
             loop: true,
-            centeredSlides: true,
             slidesPerView: 1,
             spaceBetween: 50,
             autoplay: {
