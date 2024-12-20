@@ -50,6 +50,14 @@ if (window.location.href === 'https://www.justhoney.cz/' || window.location.href
 	backgroundDiv.appendChild(videoElement);
 
         headerElement.parentNode.insertBefore(backgroundDiv, headerElement.nextSibling);
+
+	document.addEventListener('click', () => {
+	    if (videoElement.paused) {
+	        videoElement.play().catch((error) => {
+	            console.error('Autoplay failed after user interaction:', error);
+	        });
+	    }
+	});
     }
 
     const mainBackground = document.querySelector("#main-background");
